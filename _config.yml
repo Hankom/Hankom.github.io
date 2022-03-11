@@ -1,7 +1,7 @@
 # Setup
 title:               Computer Algorithm
 tagline:             'Han Kyunghwan'
-description:         '한글 테스트.'
+description:         '컴퓨터 알고리즘 정리를 위한 사이트.'
 url:                 https://hankom.github.io/
 baseurl:             ''
 paginate:            5
@@ -9,9 +9,9 @@ permalink:           pretty
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              한경환
+  url:               https://none
+  email:             pomen4444@gmail.com
 
 # Gems
 plugins:
