@@ -11,7 +11,7 @@ published: true
 
 ## 알고리즘
 
-https://github.com/Hankom/Hankom.github.io/blob/main/assets/img/1.PNG
+![1](https://raw.githubusercontent.com/Hankom/Hankom.github.io/main/assets/img/1.PNG)
 
 알고리즘의 정의는 **어떤 문제를 해결하기 위해 명확히 정의된 유한 개의 규칙과 절차의 모임**을 말한다. [출처:<a href="https://terms.naver.com/entry.naver?docId=814914&cid=42344&categoryId=42344"> 네이버 지식백과</a>] 
 
@@ -41,7 +41,7 @@ https://github.com/Hankom/Hankom.github.io/blob/main/assets/img/1.PNG
 
 알고리즘의 효율성을 분석할 때 다음과 같은 분석 방법들이 있다.
 
-https://github.com/Hankom/Hankom.github.io/blob/main/assets/img/2.PNG
+![2](https://raw.githubusercontent.com/Hankom/Hankom.github.io/main/assets/img/2.PNG)
 
 - **빅-오 표기법(Big-O Notation)**
 
