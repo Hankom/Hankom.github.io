@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 2주차 수업 요약
+published: true
 ---
 
 
