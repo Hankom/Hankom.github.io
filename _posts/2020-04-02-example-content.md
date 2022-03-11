@@ -1,122 +1,61 @@
 ---
 layout: post
-title: Example content
+title: 2주차 수업 요약
 ---
 
 
 <div class="message">
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+  알고리즘과 시간복잡도(Time Complexity)
 </div>
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+## 알고리즘
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+<img src="/assets/images/1.png" width="90%" height="90%" title="알고리즘" alt="."/>
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+알고리즘의 정의는 **어떤 문제를 해결하기 위해 명확히 정의된 유한 개의 규칙과 절차의 모임**을 말한다. [출처:<a href="https://terms.naver.com/entry.naver?docId=814914&cid=42344&categoryId=42344"> 네이버 지식백과</a>] 
 
-## Inline HTML elements
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+> 우리가 공부하는 것은 컴퓨터 분야에 문제를 다루기 때문에 우리가 공부하는 알고리즘 문제는 컴퓨터를 이용하여 해결할 수 있어야 한다.
 
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Mark otto</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+알고리즘의 **일반적인 특성**은 다음과 같다.
 
-Most of these elements are styled by browsers with few modifications on our part.
+## 알고리즘의 일반적 특성
 
-## Heading
+- **정확성** </br>
+알고리즘은 주어진 입력에 대해 올바른 해를 주어야 한다. 알고리즘은 모든 입력에 대해 원칙적으로 올바른 답을 출력해야 한다.
+- **수행성** </br>
+알고리즘의 각 단계는 컴퓨터에서 수행이 가능하여야한다. 알고리즘에 애매모호나 표현이 있으면 프로그래밍 언어로 바꿀 수 없게 되어, 컴퓨터에서 수행시킬 수 없다.
+- **유한성** </br>
+알고리즘은 유한 시간 내에 종료되어야 한다.
+알고리즘의 수행이 끝나지 않거나, 매우 오랜 시간이 걸리면 현실적으로 해를 얻을 수 없으므로, 알고리즘으로서의 가치를 잃는다.
+- **효율성** </br>
+알고리즘은 효율적일수록 그 가치가 높아진다. 알고리즘은 항상 시간적, 공간적인 효율성을 갖도록 고안되어야 한다. 이러한 효율성은 입력의 크기가 커질수록 그 가치를 더한다.
 
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+## 시간 복잡도(Time Complexity)
 
-### Code
+알고리즘의 효율성은 알고리즘의 수행 시간 또는 알고리즘이 수행하는 동안 사용 되는 메모리 공간의 크기로 나타낼 수 있다.
 
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
+> 각각 시간복잡도(Time Complexity), 공간복잡도(Space Complexity)라고 한다.</br>
+이번 요약은 시간복잡도에 대해서만 다룬다.
 
-{% highlight js %}
-// Example can be run directly in your JavaScript console
+알고리즘의 효율성을 분석할 때 다음과 같은 분석 방법들이 있다.
 
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
+<img src="/assets/images/2.png" width="90%" height="90%" title="시간복잡도" alt="."/>
 
-// Call the function
-adder(2, 6);
-// > 8
-{% endhighlight %}
+- **빅-오 표기법(Big-O Notation)**
 
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+- - 점근적 상한에 대한 표기법.
+- - O(g(n)) 은 g(n)의 증가율보다 작거나 같은 함수들의 집합이다. </br>
+- - 최악 경우 분석(worst case analysis)라고도 한다.
 
-### Lists
+- **빅-오메가 표기법(Big-Ω Notation)**
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+- - 점근적 하한에 대한 표기법.
+- - 주어진 알고리즘의 증가율보다 작거나 같은 최대의 증가율을 찾는 것이 목적 </br>
+- - 최선 경우 분석(best case analysis)라고도 한다.
 
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
+- **빅-세타 표기법(Big-Θ Notation)**
 
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-<dl>
-  <dt>HyperText Markup Language (HTML)</dt>
-  <dd>The language used to describe and define the content of a Web page</dd>
-
-  <dt>Cascading Style Sheets (CSS)</dt>
-  <dd>Used to describe the appearance of Web content</dd>
-
-  <dt>JavaScript (JS)</dt>
-  <dd>The programming language used to build advanced Web sites and applications</dd>
-</dl>
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-### Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
------
-
-Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
+- - 이 표기법은 주어진 함수(알고리즘)의 상한과 하한이 같은지 아닌지를 결정한다.
+- - 항상 상한(O)과 하한(Ω) 사이에 존재한다 </br>
+- - 평균 경우 분석(best case analysis)라고도 한다.
