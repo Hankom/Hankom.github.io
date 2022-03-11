@@ -1,0 +1,269 @@
+[33mcommit 9e43f5362dd05c1636c5a9b1b209a41f2f07e5bb[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Hankom <4444pomen@naver.com>
+Date:   Fri Mar 11 17:41:56 2022 +0900
+
+    please...
+
+[33mcommit e8980c8ebb584fa48f406db8ff46344fe826dd6e[m
+Author: Hankom <4444pomen@naver.com>
+Date:   Fri Mar 11 17:28:30 2022 +0900
+
+    [initial]
+
+[33mcommit e637093ba6cd51830a941a112a64d58e6032e5ed[m[33m ([m[1;33mtag: v1.1.0[m[33m)[m
+Merge: 7c51378 b9b13c7
+Author: Mark Otto <markd.otto@gmail.com>
+Date:   Fri Apr 3 11:14:48 2020 -0700
+
+    Merge pull request #242 from poole/related-post-size
+    
+    Add size check for related posts
+
+[33mcommit b9b13c7d898ed001e1b76ee59bcae83f6d90d234[m
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Fri Apr 3 11:14:15 2020 -0700
+
+    Add size check for related posts
+    
+    Fixes #76
+
+[33mcommit 7c51378db94a144339009c3939d34efab7d172d8[m
+Merge: f458f89 8bdc0d0
+Author: Mark Otto <markd.otto@gmail.com>
+Date:   Fri Apr 3 11:09:17 2020 -0700
+
+    Merge pull request #241 from poole/sidebar-icon-updates
+    
+    Update sidebar toggle
+
+[33mcommit 8bdc0d0a56b8f0fe9910b905fc59b5411f7ae8f8[m
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Fri Apr 3 11:05:36 2020 -0700
+
+    Replace gradient background image with embedded SVG
+
+[33mcommit f458f89e12967e8c2a23265dd3e3d13ea9542a17[m
+Merge: 2cd9c08 5403b29
+Author: Mark Otto <markd.otto@gmail.com>
+Date:   Thu Apr 2 21:29:07 2020 -0700
+
+    Merge pull request #238 from poole/v110
+    
+    v1.1.0 prep
+
+[33mcommit 2cd9c08294069848e7d2a844c557830a7ac604b7[m
+Merge: ac85a31 a96fb59
+Author: Mark Otto <markd.otto@gmail.com>
+Date:   Thu Apr 2 21:25:35 2020 -0700
+
+    Merge pull request #154 from kzu/master
+    
+    Provide a working 404 by using markdown
+
+[33mcommit 5403b29165ad0457ebbcf3abdd309f417bafde8c[m
+Merge: a56b42b 15b451c
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Thu Apr 2 17:28:06 2020 -0700
+
+    Merge branch 'master' of https://github.com/dimboiu/lanyon into dimboiu-master
+
+[33mcommit a56b42b5ce9c059cc8a301811d529831b9af71a7[m
+Merge: f7fec9a 0a4b184
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Thu Apr 2 17:26:55 2020 -0700
+
+    Merge branch 'MarkLodato-analytics' into v110
+
+[33mcommit 0a4b184ce22b7d2151ccf8904f46d35091aecaef[m
+Merge: ac85a31 c36b9fd
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Thu Apr 2 17:23:31 2020 -0700
+
+    Merge branch 'analytics' of https://github.com/MarkLodato/lanyon into MarkLodato-analytics
+
+[33mcommit f7fec9aa992b64d7969aaca95e65f8d5e498dc39[m
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Thu Apr 2 17:21:11 2020 -0700
+
+    Fix homepage highlight
+
+[33mcommit 00a8a94e78b56fad155c3057661f03d227c293b8[m
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Thu Apr 2 17:18:00 2020 -0700
+
+    simpler homepage pagination
+
+[33mcommit 7fa06b9a7a8d8ae10ca6e7fec0849ce1d362a357[m
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Thu Apr 2 17:16:15 2020 -0700
+
+    fix post, update homepage to absolute_url
+
+[33mcommit 1a8f5edf37ecc4b00ca745c319e60b18e5c7d125[m
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Thu Apr 2 17:10:26 2020 -0700
+
+    absolute_url in sidebar
+
+[33mcommit 85d3dabc31eb9900eddcb15ddc280355c854e5c9[m
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Thu Apr 2 17:09:57 2020 -0700
+
+    update about
+
+[33mcommit 63d51e5fa72c71bb3e2d92ef8474e3525ce1533a[m
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Thu Apr 2 17:08:10 2020 -0700
+
+    absolute_url the urls
+
+[33mcommit 6b47de21e90a5d8a72a50f1eeff1192a1eb47cd8[m
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Thu Apr 2 17:08:03 2020 -0700
+
+    bump version to v1.1, fix gems and plugins in config, reorganize config
+
+[33mcommit c1035ace2f09c2d856314f660502ae2577c98f27[m
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Thu Apr 2 17:07:41 2020 -0700
+
+    ignore the jekyll cache
+
+[33mcommit b3c4d5ac925bc2ee2abee00b4bbe3a64be08941c[m
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Thu Apr 2 17:07:30 2020 -0700
+
+    update posts
+
+[33mcommit 15b451cff72eb45b0271276ca211f0b0710d4b26[m
+Merge: c99e2fd ac85a31
+Author: Eugen Dimboiu <eugen@dimboiu.com>
+Date:   Thu Nov 10 10:34:36 2016 +0200
+
+    Merge remote-tracking branch 'upstream/master'
+
+[33mcommit a96fb5922c357c683956b05f6609ea2a15b02fbd[m
+Author: Daniel Cazzulino <daniel@cazzulino.com>
+Date:   Sun Jan 17 20:40:49 2016 -0300
+
+    Provide a working 404 by using markdown
+    
+    In order for the 404 to be picked up by jekyll/github pages,
+    it has to be in a 404.html file on the root. However, if the
+    file is named exactly '404.html', it won't be processed by
+    jekyll.
+    
+    Rather, you have to provide a 404.md file, and specify its
+    permalink to be 404.html, which fixes the issue.
+    
+    Working version at http://www.cazzulino.com/wrong-url.html.
+
+[33mcommit ac85a3115c094b3e6cb92cc41771e98b443f6c5d[m
+Merge: f107e1b 81bc4bc
+Author: Mark Otto <markd.otto@gmail.com>
+Date:   Tue Dec 29 18:37:02 2015 -0800
+
+    Merge pull request #151 from melodykramer/patch-1
+    
+    Update README.md
+
+[33mcommit 81bc4bcf26884d510f7d58fe5577a13dcaf05d78[m
+Author: Melody Kramer <melody.kramer@gsa.gov>
+Date:   Sat Dec 19 11:37:15 2015 -0500
+
+    Update README.md
+    
+    >added where the <input> tag lives because I had to search around for it for a bit and thought this might help others.
+
+[33mcommit f107e1bdbb4741cdb68829466a5fcee3b0cd024e[m
+Merge: bec9ea9 7efffe1
+Author: Mark Otto <markd.otto@gmail.com>
+Date:   Wed Jun 17 10:23:45 2015 -0700
+
+    Merge pull request #120 from prereflect/patch-1
+    
+    Change Hyde to Lanyon in post
+
+[33mcommit 7efffe15d5cd5fb6f37d2fab4305465941ec8658[m
+Author: Toby Woller <toby@woller.io>
+Date:   Wed Jun 17 08:04:49 2015 -0700
+
+    Change Hyde to Lanyon
+    
+    It's an immensely useful tool and one we encourage you to use here with
+    Hyde.
+
+[33mcommit c99e2fd1b6da80fcbcd986221dacd755dad9aa52[m
+Author: Eugen Dimboiu <eugen@dimboiu.com>
+Date:   Fri May 8 16:36:31 2015 +0300
+
+    added canonical url to head
+
+[33mcommit e1d0d3199957b20a179f1c99d506956ddab0b7d0[m
+Author: Eugen Dimboiu <eugen@dimboiu.com>
+Date:   Fri May 8 15:56:04 2015 +0300
+
+    moved javascript from template bottom to /public/js/script.js
+
+[33mcommit c36b9fde982ffcf0080d04dc3789565d6ac0049d[m
+Author: Mark Lodato <lodato@google.com>
+Date:   Sun Apr 26 18:34:01 2015 -0400
+
+    Add optional Google Analytics integration.
+    
+    Rather than users having to copy and modify _includes/head.html, now
+    users need only set the google_analytics_id field in _config.yml.
+
+[33mcommit bec9ea9651116ab6b9801b5232b9fb4af47011d5[m
+Merge: f3fca33 f039ccb
+Author: Mark Otto <markd.otto@gmail.com>
+Date:   Sun Apr 19 14:57:25 2015 -0700
+
+    Merge pull request #103 from poole/focus
+    
+    Keyboard focus styles
+
+[33mcommit f3fca33c13dcf688d923c241cc0b8f46f2bcbc1b[m
+Merge: 1c3cc17 d4e8f0c
+Author: Mark Otto <markd.otto@gmail.com>
+Date:   Sun Apr 19 14:57:19 2015 -0700
+
+    Merge pull request #104 from poole/new_toggler
+    
+    Updated toggle button
+
+[33mcommit d4e8f0c6e5610bdb8b6d337726f6e38408c83af9[m
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Sun Apr 19 14:52:37 2015 -0700
+
+    Use gradient background instead of borders for more precise bars in toggle button
+
+[33mcommit f039ccba3347ff8cebb6baea08efa01da497d6a3[m
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Sun Apr 19 02:11:03 2015 -0700
+
+    enable keyboard focus styles to improve accessibility
+
+[33mcommit 1c3cc17e0ef6f92f2a2b6d9e72c2192267f70f7c[m
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Sun Apr 19 01:39:03 2015 -0700
+
+    fix index post links
+
+[33mcommit e1558000f762eb1fe72444a66a8b523d488517a9[m
+Merge: daf09fe e4bfece
+Author: Mark Otto <markdotto@gmail.com>
+Date:   Sun Apr 19 01:38:31 2015 -0700
+
+    Merge branch 'use-base-url-everywhere' of https://github.com/yutannihilation/lanyon into yutannihilation-use-base-url-everywhere
+
+[33mcommit daf09fed488b00869d1bcf9eec63408fb7860bde[m
+Merge: 42cf510 f2840f1
+Author: Mark Otto <markd.otto@gmail.com>
+Date:   Sun Apr 19 01:24:10 2015 -0700
+
+    Merge pull request #95 from texasflood/patch-1
+    
+    Fixed absence of checked boolean in sidebar attribute
+
+[
