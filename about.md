@@ -11,5 +11,5 @@ title: About
 
 이메일:
 
-* [한경환](pomen4444@gmail.com)
+* 한경환:pomen4444@gmail.com
 
