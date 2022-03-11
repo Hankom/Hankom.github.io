@@ -6,7 +6,7 @@ url:                 https://hankom.github.io/
 baseurl:             ''
 paginate:            5
 permalink:           pretty
-
+future:true
 # About/contact
 author:
   name:              한경환
